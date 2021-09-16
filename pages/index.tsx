@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 const title = "Does tzatziki have dairy?"
 const description = "Yes"
-const imageUrl ='http://doestzatzikihavedairy.com/tzatziki.png'
+const imageUrl ='https://doestzatzikihavedairy.com/tzatziki.png'
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +20,6 @@ const Home: NextPage = () => {
         <meta name="twitter:card" content={"summary"}/>
         <meta name="twitter:title" content={title}/>
         <meta name="twitter:description" content={description}/>
-
 
         <meta
           property="og:image:width"
